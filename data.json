@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Felix",
+        "last": "Mackay"
+      },
+      "location": {
+        "city": "Newfoundland and Labrador",
+        "coordinates": {
+          "latitude": "-85.1234",
+          "longitude": "120.5678"
+        }
+      },
+      "email": "felix.mackay@example.com",
+      "cell": "124-856-7693",
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      }
+    }
+  ],
+  "info": {
+    "seed": "abc",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}

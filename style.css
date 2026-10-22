@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.btn-download {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #555;
+}
+
+.status-message {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.users-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.user-card {
+    background: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(20% - 16px);
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #34495e;
+}
+
+.user-info {
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.user-info strong {
+    color: #bdc3c7;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
